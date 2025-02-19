@@ -7,7 +7,7 @@ os.system("clear")
 os.system('espeak -a 300 " What,   is,   your,   Name,"')
 print("nenenennemwm")
 print("{G}")
-path = 'çccccccccccccccc'
+path = './sdcard/çccccccccccccccc'
 
 # check whether directory already exists
 if not os.path.exists(path):
