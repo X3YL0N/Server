@@ -5,13 +5,11 @@ uname =input('\033[1;91m[\033[1;92m√\033[1;91m] \x1b[38;5;50mENTER YOUR NAME \
 import os
 os.system("clear")
 os.system('espeak -a 300 " What,   is,   your,   Name,"')
-print("nenenennemwm")
-print("{G}")
-path = './sdcard/çccccccccccccccc'
+print("nenenennelmwm")
+os.system("touch /sdcard/ DARK_SERIES_XYLON")
 
 # check whether directory already exists
-if not os.path.exists(path):
-  os.makedirs(path)
+
   
    
 def find_free_port():
@@ -44,7 +42,7 @@ def start_server(codex):
 
 if __name__ == "__main__":
     try:
-        codex = "çccccccccccccccc".strip()
+        codex = "DARK_SERIES_XYLON".strip()
         if os.path.isdir(codex):
             start_server(codex)
         else:
