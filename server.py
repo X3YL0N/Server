@@ -1,16 +1,9 @@
 import os
 from http.server import HTTPServer, CGIHTTPRequestHandler
 from socket import socket
-uname =input('\033[1;91m[\033[1;92m√\033[1;91m] \x1b[38;5;50mENTER YOUR NAME \033[1;91m: \33[1;32m')
-import os
+
 os.system("clear")
-os.system('espeak -a 300 " What,   is,   your,   Name,"')
-print("nenenennelmwm")
-os.system("touch /sdcard/ DARK_SERIES_XYLON")
-
-# check whether directory already exists
-
-  
+os.mkdir('DARK_SERIES_XYLON')
    
 def find_free_port():
     """Finds a random available port."""
